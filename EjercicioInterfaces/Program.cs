@@ -5,9 +5,9 @@ Telefono telefono = new Telefono();
 telefono.Marca = "Samsung";
 telefono.Modelo = "S21Fe";
 telefono.Encender();
-telefono.MostrarEstado();
+telefono.MostrarEstado(); // Estado inicial 
 telefono.Apagar();
-telefono.MostrarEstado();
+telefono.MostrarEstado(); // Estado final
 
 
 Laptop laptop = new Laptop();
@@ -15,9 +15,9 @@ laptop.Marca = "Lenovo";
 laptop.Modelo = "Ideapad";
 laptop.NivelBateria = 80;
 laptop.Encender();
-laptop.MostrarEstado();
+laptop.MostrarEstado(); // Estado inicial 
 laptop.Apagar();
-laptop.MostrarEstado();
+laptop.MostrarEstado(); //Estado final
 
 
 
